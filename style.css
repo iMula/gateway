@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Centric gothic;
+    
+  }
+  
+  header{
+    background-image: url("The6.jpeg");
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+  }
+  
+  ul{
+   list-style-type: none;
+   float: right;
+   margin-top:25px;
+  
+  }
+  
+  ul li{
+    display:inline-block;
+    
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color:black;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    transition:0.6s ease;
+    
+  }
+  
+  ul li a:hover{
+    background-color:white;
+    color:black;
+  }
+  
+  ul li.active a{
+    background-color:white;
+    color:black;
+  }
+  
+  .logo img{
+    float: left;
+    width:150px;
+    height: auto;
+  
+  }
+  
+  .main{
+    max-width:1200px;
+    margin:auto;
+  }
+  
+  .title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  
+  .title h1{
+    color:red;
+    font-size:70px;
+  }
+  
+  button{
+    position: absolute;
+    top:62%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  
+  .btn{
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:white;
+    text-decoration:none;
+    transition:0.6s ease;
+    
+  }
+  
+  .btn:hover{
+    background-color:white;
+    color:black;
+  }
+  
+  .cityview img{
+    height:60vh;
+     width:100vh;
+     margin-left:10px;
+     margin-top:20px;
+     margin-bottom:20px;
+  }
+  
+  .weather img{
+    height:60vh;
+    width:100vh;
+    margin-left:10px;
+    margin-top:20px;
+     margin-bottom:20px;
+  }
+  
+  .culture img{
+    height:60vh;
+    width:100vh;
+    margin-left:10px;
+    margin-top:20px;
+     margin-bottom:20px;
+  }
+  
+  .culture p{
+    text-align:right;
+    margin-right:150px;
+    font-size: 15px;
+  }
+  
+  .text-box h1{
+    font-size:44px;
+     font-weight:500;
+     color:red;
+     margin-top:5px; 
+     margin-left:15px;  
+  }
+  
+  p{
+     margin-top:5px;
+     font-size:22px;
+      color: white;
+      margin-left:15px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      width: 100vw;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:black;
+  }
+  
+  
+  .weather h1{
+    font-size:44px;
+     font-weight:500;
+     color:#fff;
+  }
+  
+  .p2img img{
+    height:60vh;
+    margin-top:20px;
+     margin-bottom:20px;
+     margin-left:18px;
+  }
+  
+  .museum img{
+    height:60vh;
+    width:100vh;
+    margin-left:10px;
+    margin-top:20px;
+     margin-bottom:20px;
+  }
+  
+  .ripley img{
+    height:60vh;
+    width:100vh;
+    margin-left:10px;
+    margin-top:20px;
+     margin-bottom:20px;
+  }
+  
+  .submission-form label{
+     color:lightblue;
+     display:block;
+  }
+  
+  input, textarea{
+      display:block;
+      width:100%;
+  }
+  
+  .submission-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border:2px solid orange;
+    padding:2rem;
+  }
+  
+  #sendBtn{
+    border:0;
+    background-color:lightblue;
+    padding:.5rem;
+    color:white;
+    margin:1rem 0;
+    width:auto;
+    text-transform:uppercase;
+    cursor:pointer;
+  }
+  
+  #sendBtn:hover{
+    background:yellow;
+  }
+  
+  
+  .footer-container {
+      position: relative;
+      bottom: 0;
+      background: #0a0a0a;
+      width: 100%;
+      color: #CDCDCD;
+      padding-top: 6vh; 
+      padding-bottom: 6vh; 
+      display: table;
+      border-top: #151515 5px solid;
+  }
+  
+  .footer-row {
+      display: table-row;
+  }
+  
+  .footer-left-container, .footer-right-container {
+      display: table-cell;
+      width: 50%;
+      padding-left: 20vh;
+      padding-right: 20vh;
+  }
+  
+  .footer-icon-container {
+      width: 100%;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      text-align: center;
+  }
+  
+  .footer-title {
+      font-size: 3vh;
+      text-align: center;
+      margin: 0;
+      text-transform: uppercase;
+  }
+  
+  .footer-text {
+      font-size: 1.2em;
+      font-weight: bold;
+      line-height: 1.3em;
+      text-align: center;
+  }
+  
+  
+  .icon-img {
+      height: 5vh;
+      margin-left: 0.7vh;
+      margin-right: 0.7vh; 
+      width: auto;
+  }
+  
+  #copyright {
+      text-align: center;
+      margin: auto;
+  }
